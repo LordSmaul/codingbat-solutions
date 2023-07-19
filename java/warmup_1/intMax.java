@@ -1,8 +1,8 @@
 package java.warmup_1;
+
 import java.util.Arrays;
 
 /*
-
 Given three int values, a b c, return the largest.
 
 intMax(1, 2, 3) → 3

@@ -9,13 +9,12 @@ stringBits("Heeololeo") → "Hello"
 */
 
 public class stringBits {
-    public String stringbits(String str) {
-        String result = "";
-        for (int i = 0; i < str.length(); i += 2)
-        {
-          result += Character.toString(str.charAt(i));
-        }
-        
-        return result;
-      } 
+  public String stringbits(String str) {
+    String result = "";
+    for (int i = 0; i < str.length(); i += 2) {
+      result += Character.toString(str.charAt(i));
+    }
+
+    return result;
+  }
 }

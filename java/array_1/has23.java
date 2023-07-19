@@ -1,4 +1,5 @@
 package java.array_1;
+
 import java.util.Arrays;
 
 /*

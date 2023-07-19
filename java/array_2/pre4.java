@@ -1,4 +1,5 @@
 package java.array_2;
+
 import java.util.Arrays;
 
 /* 
@@ -11,7 +12,7 @@ pre4([1, 4, 4]) → [1]
 
 */
 
-public class pre4 { 
+public class pre4 {
     public int[] pre_4(int[] nums) {
 
         int index = 0;

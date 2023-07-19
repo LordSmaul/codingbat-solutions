@@ -12,17 +12,21 @@ fizzBuzz(1, 11) → ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "B
 */
 
 public class fizzBuzz {
-    public String[] fizzbuzz(int start, int end) {
-        String[] s = new String[end-start];
-        
-        for (int i = start, j = 0; j < s.length; i++, j++)
-        {
-          if (i % 3 == 0 && i % 5 != 0) { s[j] = "Fizz"; }
-          else if (i % 3 != 0 && i % 5 == 0) { s[j] = "Buzz"; }
-          else if (i % 3 == 0 && i % 5 == 0) { s[j] = "FizzBuzz"; }
-          else { s[j] = String.valueOf(i); }
-        }
-        
-        return s;
-      } 
+  public String[] fizzbuzz(int start, int end) {
+    String[] s = new String[end - start];
+
+    for (int i = start, j = 0; j < s.length; i++, j++) {
+      if (i % 3 == 0 && i % 5 != 0) {
+        s[j] = "Fizz";
+      } else if (i % 3 != 0 && i % 5 == 0) {
+        s[j] = "Buzz";
+      } else if (i % 3 == 0 && i % 5 == 0) {
+        s[j] = "FizzBuzz";
+      } else {
+        s[j] = String.valueOf(i);
+      }
+    }
+
+    return s;
+  }
 }

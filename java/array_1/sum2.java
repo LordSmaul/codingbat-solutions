@@ -19,6 +19,5 @@ public class sum2 {
         } else {
             return nums[0] + nums[1];
         }
-
     }
 }
