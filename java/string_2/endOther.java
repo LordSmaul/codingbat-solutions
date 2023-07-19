@@ -10,15 +10,12 @@ endOther("abc", "abXabc") → true
 */
 
 public class endOther {
-    public boolean endother(String a, String b) {
-  
-        if (a.length() < b.length())
-        {
-          return (b.toLowerCase().substring(b.length() - a.length()).equals(a.toLowerCase()));
-        }
-        else
-        {
-          return (a.toLowerCase().substring(a.length() - b.length()).equals(b.toLowerCase()));
-        }
-      }
+  public boolean endother(String a, String b) {
+
+    if (a.length() < b.length()) {
+      return (b.toLowerCase().substring(b.length() - a.length()).equals(a.toLowerCase()));
+    } else {
+      return (a.toLowerCase().substring(a.length() - b.length()).equals(b.toLowerCase()));
+    }
+  }
 }
